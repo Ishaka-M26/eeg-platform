@@ -1,0 +1,61 @@
+ERC report (2026-07-29T20:41:34, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'MCP1754T-3302E_OT' doesn't match copy in library 'MCP1754T_3302E'
+    ; warning
+    @(1600 mils, 3150 mils): Symbol U4 [MCP1754T-3302E_OT]
+[lib_symbol_mismatch]: Symbol 'LM2664M6_NOPB' doesn't match copy in library 'LM2664'
+    ; warning
+    @(6500 mils, 3400 mils): Symbol U3 [LM2664M6_NOPB]
+[lib_symbol_mismatch]: Symbol 'ADS1299' doesn't match copy in library 'Analog_ADC'
+    ; warning
+    @(5750 mils, 3400 mils): Symbol U1 [ADS1299]
+[lib_symbol_mismatch]: Symbol 'R_Network04' doesn't match copy in library 'Device'
+    ; warning
+    @(3750 mils, 1300 mils): Symbol RN1 [R_Network04]
+[lib_symbol_mismatch]: Symbol 'C_Array_4' doesn't match copy in library 'Device'
+    ; warning
+    @(4350 mils, 1800 mils): Symbol CN3 [C_Array_4]
+[lib_symbol_mismatch]: Symbol 'R_Network04' doesn't match copy in library 'Device'
+    ; warning
+    @(3800 mils, 3450 mils): Symbol RN2 [R_Network04]
+[lib_symbol_mismatch]: Symbol 'C_Array_4' doesn't match copy in library 'Device'
+    ; warning
+    @(4400 mils, 3950 mils): Symbol CN4 [C_Array_4]
+[lib_symbol_mismatch]: Symbol 'R_Network04' doesn't match copy in library 'Device'
+    ; warning
+    @(3850 mils, 5650 mils): Symbol RN3 [R_Network04]
+[lib_symbol_mismatch]: Symbol 'C_Array_4' doesn't match copy in library 'Device'
+    ; warning
+    @(4450 mils, 6150 mils): Symbol CN5 [C_Array_4]
+[lib_symbol_mismatch]: Symbol 'R_Network04' doesn't match copy in library 'Device'
+    ; warning
+    @(9350 mils, 1550 mils): Symbol RN4 [R_Network04]
+[lib_symbol_mismatch]: Symbol 'R_Network04' doesn't match copy in library 'Device'
+    ; warning
+    @(9400 mils, 3650 mils): Symbol RN5 [R_Network04]
+[lib_symbol_mismatch]: Symbol 'C_Array_4' doesn't match copy in library 'Device'
+    ; warning
+    @(9950 mils, 2050 mils): Symbol CN6 [C_Array_4]
+[lib_symbol_mismatch]: Symbol 'C_Array_4' doesn't match copy in library 'Device'
+    ; warning
+    @(10000 mils, 4150 mils): Symbol CN7 [C_Array_4]
+
+***** Sheet /input_protection/
+
+***** Sheet /ads1299/
+
+***** Sheet /power/
+
+***** Sheet /zynq_if/
+
+***** Sheet /connectors/
+
+ ** ERC messages: 13  Errors 0  Warnings 13
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

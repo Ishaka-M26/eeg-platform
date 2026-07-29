@@ -1,0 +1,257 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mils",
+    "date": "2026-07-29T20:42:03",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db",
+            "violations": [
+                {
+                    "description": "Symbol 'MCP1754T-3302E_OT' doesn't match copy in library 'MCP1754T_3302E'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [MCP1754T-3302E_OT]",
+                            "pos": {
+                                "x": 16.0,
+                                "y": 31.5
+                            },
+                            "uuid": "498d8295-f631-4a07-bcb0-91485336cc44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LM2664M6_NOPB' doesn't match copy in library 'LM2664'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [LM2664M6_NOPB]",
+                            "pos": {
+                                "x": 65.0,
+                                "y": 34.0
+                            },
+                            "uuid": "d79b18eb-39db-489b-bed0-2e1a12e09b6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'ADS1299' doesn't match copy in library 'Analog_ADC'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ADS1299]",
+                            "pos": {
+                                "x": 57.5,
+                                "y": 34.0
+                            },
+                            "uuid": "25141bfb-d79c-4fc7-a761-dc50b98b7480"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Network04' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol RN1 [R_Network04]",
+                            "pos": {
+                                "x": 37.5,
+                                "y": 13.0
+                            },
+                            "uuid": "97064f83-a50d-4789-bd2f-fb291bb024f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Array_4' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol CN3 [C_Array_4]",
+                            "pos": {
+                                "x": 43.5,
+                                "y": 18.0
+                            },
+                            "uuid": "d64d552d-4cf7-4e3d-80ce-0357d30ae3b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Network04' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol RN2 [R_Network04]",
+                            "pos": {
+                                "x": 38.0,
+                                "y": 34.5
+                            },
+                            "uuid": "8e58906e-79cf-4fc7-9fb3-394caf5b05ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Array_4' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol CN4 [C_Array_4]",
+                            "pos": {
+                                "x": 44.0,
+                                "y": 39.5
+                            },
+                            "uuid": "5b7d2343-000a-4888-b20c-fc0d1f49f9eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Network04' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol RN3 [R_Network04]",
+                            "pos": {
+                                "x": 38.5,
+                                "y": 56.5
+                            },
+                            "uuid": "484d97da-562c-476b-9dd2-df982823132f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Array_4' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol CN5 [C_Array_4]",
+                            "pos": {
+                                "x": 44.5,
+                                "y": 61.5
+                            },
+                            "uuid": "a0b3bfa5-06cc-4f98-a864-e0ad00ec735b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Network04' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol RN4 [R_Network04]",
+                            "pos": {
+                                "x": 93.5,
+                                "y": 15.5
+                            },
+                            "uuid": "f0c13b9b-dafa-4e7a-8905-310c5efd8d1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Network04' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol RN5 [R_Network04]",
+                            "pos": {
+                                "x": 94.0,
+                                "y": 36.5
+                            },
+                            "uuid": "f3fab920-d433-4048-a8ae-649f3d7145f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Array_4' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol CN6 [C_Array_4]",
+                            "pos": {
+                                "x": 99.5,
+                                "y": 20.5
+                            },
+                            "uuid": "c472e7f8-f68e-4043-9fdc-7c730b448270"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Array_4' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol CN7 [C_Array_4]",
+                            "pos": {
+                                "x": 100.0,
+                                "y": 41.5
+                            },
+                            "uuid": "ae452408-41a4-40da-a237-00024dc9d253"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/input_protection/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db/8fbd888a-0636-4046-a819-0fcc0f775806",
+            "violations": []
+        },
+        {
+            "path": "/ads1299/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db/d3d81908-94b4-4966-ade5-5617ef9c17a5",
+            "violations": []
+        },
+        {
+            "path": "/power/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db/67cf8ac1-3d51-4375-a772-fee2ebc4d7fa",
+            "violations": []
+        },
+        {
+            "path": "/zynq_if/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db/cd79bdaa-bb68-4e67-9984-79749f54cda6",
+            "violations": []
+        },
+        {
+            "path": "/connectors/",
+            "uuid_path": "/c1638d58-7f01-48b1-a23e-239663b7f6db/60d5897f-9c31-4578-bd94-1e9299283943",
+            "violations": []
+        }
+    ],
+    "source": "eeg-frontend.kicad_sch"
+}
