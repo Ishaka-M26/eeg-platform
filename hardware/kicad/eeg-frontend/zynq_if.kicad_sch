@@ -1147,7 +1147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1228,7 +1228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1306,7 +1306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1384,7 +1384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -1465,7 +1465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 72.39 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1543,7 +1543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1621,7 +1621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 44.45 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1699,7 +1699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 50.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1777,7 +1777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1858,7 +1858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1939,7 +1939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2020,7 +2020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 96.52 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2098,7 +2098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2179,7 +2179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2260,7 +2260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2341,7 +2341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2422,7 +2422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 77.47 31.75 0)
 			(hide yes)
 			(show_name no)

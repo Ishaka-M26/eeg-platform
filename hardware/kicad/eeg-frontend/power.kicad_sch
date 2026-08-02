@@ -128,12 +128,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -141,30 +138,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.524 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -175,17 +170,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -196,7 +180,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "V"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -207,7 +191,7 @@
 					)
 				)
 			)
-			(property "Sim.Type" "DC"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -218,7 +202,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=+ 2=-"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -229,94 +213,44 @@
 					)
 				)
 			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Battery_Cell_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -332,9 +266,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2341,6 +2275,26 @@
 		)
 		(uuid "aa5394f6-2f5b-4de8-80e8-917907970458")
 	)
+	(text_box "OpenBCIのバッテリは\nLP503033(3.7V 500mA)"
+		(exclude_from_sim no)
+		(at 17.78 48.26 0)
+		(size 17.78 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c238a903-cf05-43ba-9c45-daaf2a568cea")
+	)
 	(text_box "VIN_SYS -> +3V REGULATOR"
 		(exclude_from_sim no)
 		(at 15.748 65.024 0)
@@ -2360,6 +2314,12 @@
 			(justify left top)
 		)
 		(uuid "d25f93a9-df5f-4e2f-82b1-e0811845caf2")
+	)
+	(junction
+		(at 35.56 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0588f659-1548-4dcc-ab05-b457b2ea0a69")
 	)
 	(junction
 		(at 191.77 137.16)
@@ -2402,6 +2362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c4bcc5b-76ed-43f5-8391-fdfd6966a97a")
+	)
+	(junction
+		(at 43.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f11b9a-1a4a-4b66-a3cb-709ffaeb5c6a")
 	)
 	(junction
 		(at 33.02 137.16)
@@ -2480,18 +2446,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57b8f46-5af8-4a4f-9521-2e7f0b3c106b")
-	)
-	(junction
-		(at 33.02 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6d12484-11f0-4226-9dc6-a27dbde35238")
-	)
-	(junction
-		(at 25.4 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac5f4888-964d-4d5e-ab99-90ea3ca67a9a")
 	)
 	(junction
 		(at 199.39 137.16)
@@ -2757,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 38.1) (xy 43.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343835cc-a8e1-4ac6-b59a-7012e0d3bc53")
+	)
+	(wire
+		(pts
 			(xy 60.96 30.48) (xy 63.5 30.48)
 		)
 		(stroke
@@ -2777,16 +2741,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 46.99) (xy 25.4 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a26611-e520-48cf-904a-db58edb0ef3a")
-	)
-	(wire
-		(pts
 			(xy 38.1 137.16) (xy 54.61 137.16)
 		)
 		(stroke
@@ -2794,16 +2748,6 @@
 			(type default)
 		)
 		(uuid "3d691591-5935-4975-8487-776b84470a04")
-	)
-	(wire
-		(pts
-			(xy 33.02 46.99) (xy 33.02 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f263d94-cf31-41d9-a928-c52dc01e8382")
 	)
 	(wire
 		(pts
@@ -2857,6 +2801,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 33.02) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463a16f8-97b1-40cf-aa98-896b39ce5dda")
+	)
+	(wire
+		(pts
 			(xy 78.74 149.86) (xy 64.77 149.86)
 		)
 		(stroke
@@ -2864,6 +2818,16 @@
 			(type default)
 		)
 		(uuid "4e977a04-6094-462c-a0f7-463e151d511d")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527c9809-fd78-43b4-8fa9-117a91604269")
 	)
 	(wire
 		(pts
@@ -2897,6 +2861,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 30.48) (xy 44.45 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cfec3b-9acd-493e-8d9e-14fc1a9bf4e8")
+	)
+	(wire
+		(pts
 			(xy 179.07 137.16) (xy 191.77 137.16)
 		)
 		(stroke
@@ -2914,16 +2888,6 @@
 			(type default)
 		)
 		(uuid "5c69461a-767d-4398-a689-f3cef7381ddf")
-	)
-	(wire
-		(pts
-			(xy 25.4 36.83) (xy 25.4 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624603fd-e770-4eeb-86fd-ea89c35dac08")
 	)
 	(wire
 		(pts
@@ -2964,16 +2928,6 @@
 			(type default)
 		)
 		(uuid "6efe6cd1-071c-45e7-ac76-36689da4517c")
-	)
-	(wire
-		(pts
-			(xy 25.4 44.45) (xy 25.4 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e20d4a-7257-4072-849e-843318250618")
 	)
 	(wire
 		(pts
@@ -3217,16 +3171,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 38.1) (xy 49.53 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5635188-ec0e-4933-9c16-042910dfb468")
-	)
-	(wire
-		(pts
 			(xy 64.77 149.86) (xy 64.77 153.67)
 		)
 		(stroke
@@ -3307,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 38.1) (xy 35.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81b6f7e-90b3-4955-a477-04e100254912")
+	)
+	(wire
+		(pts
 			(xy 31.75 80.01) (xy 31.75 88.9)
 		)
 		(stroke
@@ -3324,16 +3278,6 @@
 			(type default)
 		)
 		(uuid "cfc39d10-160a-4095-a697-9edfae12e080")
-	)
-	(wire
-		(pts
-			(xy 49.53 46.99) (xy 33.02 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d296395a-1309-4a6b-bdde-0ee7495224cc")
 	)
 	(wire
 		(pts
@@ -3357,16 +3301,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 46.99) (xy 25.4 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85ac9e3-da4a-43b6-b846-a3d3580fe7c1")
-	)
-	(wire
-		(pts
 			(xy 191.77 137.16) (xy 199.39 137.16)
 		)
 		(stroke
@@ -3374,6 +3308,16 @@
 			(type default)
 		)
 		(uuid "d8d55ea5-2f19-4532-b4c2-27bbf2eddd89")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93c4fa8-2ba2-4999-b9a1-d0c8a89b048a")
 	)
 	(wire
 		(pts
@@ -3444,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "e8628ec7-5c01-4a7a-843a-97802a92cb94")
-	)
-	(wire
-		(pts
-			(xy 25.4 30.48) (xy 44.45 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea298eae-6504-4bf2-9013-75262aa0c6e7")
 	)
 	(wire
 		(pts
@@ -3847,6 +3781,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 30.48 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007ec727-78aa-4af5-b6b0-be9a742266b4")
+		(property "Reference" "J5"
+			(at 27.94 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 27.94 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 30.48 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb891b16-63ed-4a38-b41b-ba1700f63ca4")
+		)
+		(pin "2"
+			(uuid "77098343-7b1f-404f-99e0-00e9a7f3c796")
+		)
+		(instances
+			(project "eeg-frontend"
+				(path "/c1638d58-7f01-48b1-a23e-239663b7f6db/67cf8ac1-3d51-4375-a772-fee2ebc4d7fa"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 31.75 91.44 0)
 		(unit 1)
@@ -3880,7 +3897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.75 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4086,7 +4103,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 49.53 180)
+		(at 43.18 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4097,7 +4114,7 @@
 		(fields_autoplaced yes)
 		(uuid "11e79579-fea9-42d9-a640-dd04597113de")
 		(property "Reference" "#FLG01"
-			(at 33.02 51.435 0)
+			(at 43.18 42.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4108,7 +4125,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 33.02 54.61 0)
+			(at 43.18 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 49.53 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 49.53 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4157,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 49.53 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4356,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4438,7 +4455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4519,7 +4536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4598,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4757,7 +4774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4927,7 +4944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5008,7 +5025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5085,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5282,7 +5299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.33 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5364,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.74 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5865,7 +5882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 33.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +5964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 179.07 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6029,7 +6046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6157,7 +6174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 49.53 0)
+		(at 35.56 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6168,7 +6185,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46cf0bc-1beb-4406-90c0-f9323e7918c2")
 		(property "Reference" "#PWR02"
-			(at 25.4 55.88 0)
+			(at 35.56 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 54.61 0)
+			(at 35.56 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6189,7 +6206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 49.53 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6200,7 +6217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 49.53 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 49.53 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 204.47 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6438,7 +6455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 115.57 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6478,121 +6495,6 @@
 			(project "eeg-frontend"
 				(path "/c1638d58-7f01-48b1-a23e-239663b7f6db/67cf8ac1-3d51-4375-a772-fee2ebc4d7fa"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 25.4 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e668473b-785b-4cd2-8f52-c4adeb0bf6b0")
-		(property "Reference" "BT1"
-			(at 29.21 38.7984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 29.21 41.3384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 25.4 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 25.4 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 25.4 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 25.4 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e969d1ed-1dc9-440f-a7ea-26f5dd996306")
-		)
-		(pin "1"
-			(uuid "d0db546b-f57c-4571-a644-64b0ce3522aa")
-		)
-		(instances
-			(project "eeg-frontend"
-				(path "/c1638d58-7f01-48b1-a23e-239663b7f6db/67cf8ac1-3d51-4375-a772-fee2ebc4d7fa"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
