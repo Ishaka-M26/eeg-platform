@@ -3968,14 +3968,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 40.64 109.22 0)
+		(property "Value" "AGND"
+			(at 43.18 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4046,14 +4047,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 58.42 0)
+		(property "Value" "AGND"
+			(at 120.65 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4284,14 +4286,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 113.03 0)
+		(property "Value" "AGND"
+			(at 167.64 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4686,14 +4689,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 64.77 158.75 0)
+		(property "Value" "AGND"
+			(at 67.31 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6117,14 +6121,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 166.37 158.75 0)
+		(property "Value" "AGND"
+			(at 168.91 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6182,7 +6187,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d46cf0bc-1beb-4406-90c0-f9323e7918c2")
 		(property "Reference" "#PWR02"
 			(at 35.56 46.99 0)
@@ -6195,14 +6199,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 35.56 45.72 0)
+		(property "Value" "AGND"
+			(at 28.448 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

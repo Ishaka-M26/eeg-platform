@@ -4149,14 +4149,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 171.45 157.48 0)
+		(property "Value" "AGND"
+			(at 173.99 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4226,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 201.676 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4792,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 177.546 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)

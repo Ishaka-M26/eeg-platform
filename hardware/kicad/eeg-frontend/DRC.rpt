@@ -1,0 +1,838 @@
+** Drc report for eeg-frontend.kicad_pcb **
+** Created on 2026-08-18T21:49:43 **
+** Report includes: Errors, Warnings **
+
+** Found 219 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1009 mm)
+    Local override; error
+    @(150.9000 mm, 57.0300 mm): Pad 6 [IN2N] of CN4 on B.Cu
+    @(150.0541 mm, 57.2380 mm): Via [IN1N] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+    Local override; error
+    @(149.5100 mm, 46.3900 mm): PTH pad 18 [3P] of J1
+    @(148.3850 mm, 45.9240 mm): Track [2N] on F.Cu, length 0.9320 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(173.5500 mm, 101.0800 mm): PTH pad 7 [PMOD_DRDY] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(171.0100 mm, 101.0800 mm): PTH pad 8 [PMOD_START] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(168.4700 mm, 101.0800 mm): PTH pad 9 [PMOD_RESET] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(165.9300 mm, 101.0800 mm): PTH pad 10 [PMOD_CS2] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(163.3900 mm, 101.0800 mm): PTH pad 11 [AGND] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4654 mm)
+    Rule: board setup constraints edge; error
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(160.8500 mm, 101.0800 mm): PTH pad 12 [PMOD_3V3] of J2
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.9000 mm, 48.6350 mm): Track [7N] on F.Cu, length 0.7071 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.3250 mm, 49.5503 mm): Track [7N] on F.Cu, length 0.2475 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.4000 mm, 49.1350 mm): Track [7N] on F.Cu, length 0.0750 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(158.7000 mm, 51.2000 mm): Track [7N] on F.Cu, length 0.7400 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.5500 mm, 50.3500 mm): Track [7N] on F.Cu, length 1.2021 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.1500 mm, 49.7253 mm): Track [7N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.0907 mm, 49.8200 mm): Track [7N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6314 mm, 50.3146 mm): Track [7N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.0907 mm, 49.8553 mm): Track [7N] on F.Cu, length 0.6496 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.3250 mm, 49.1350 mm): Track [7N] on F.Cu, length 0.4153 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(161.4125 mm, 48.6350 mm): Track [7N] on F.Cu, length 0.5125 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(160.1500 mm, 49.7607 mm): Track [7N] on F.Cu, length 0.0839 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.9750 mm, 49.0947 mm): Track [7P] on F.Cu, length 0.3107 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.8000 mm, 47.8843 mm): Track [7P] on F.Cu, length 0.0707 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.9750 mm, 49.4053 mm): Track [7P] on F.Cu, length 0.2475 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6700 mm, 46.3900 mm): Track [7P] on F.Cu, length 1.3643 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6700 mm, 49.7457 mm): Track [7P] on F.Cu, length 0.2889 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6700 mm, 49.7000 mm): Track [7P] on F.Cu, length 0.0457 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6700 mm, 47.7543 mm): Track [7P] on F.Cu, length 0.1838 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.4657 mm, 49.9500 mm): Track [7P] on F.Cu, length 0.6782 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.8000 mm, 49.5803 mm): Track [7P] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.9500 mm, 49.0697 mm): Track [7P] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.8000 mm, 47.9550 mm): Track [7P] on F.Cu, length 0.2121 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.8000 mm, 49.6157 mm): Track [7P] on F.Cu, length 0.1192 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.9500 mm, 48.1050 mm): Track [7P] on F.Cu, length 0.9646 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.5500 mm, 49.3000 mm): Track [6N] on F.Cu, length 0.7625 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.3200 mm, 47.8993 mm): Track [6N] on F.Cu, length 0.1838 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(158.2800 mm, 45.0000 mm): Track [6N] on F.Cu, length 1.6800 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.4500 mm, 48.0293 mm): Track [6N] on F.Cu, length 0.0707 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.6000 mm, 48.2500 mm): Track [6N] on F.Cu, length 1.0000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(158.2800 mm, 46.6800 mm): Track [6N] on F.Cu, length 1.4708 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.3200 mm, 47.7200 mm): Track [6N] on F.Cu, length 0.1793 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(157.1300 mm, 43.8500 mm): Track [6N] on F.Cu, length 1.6263 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(159.4500 mm, 48.1000 mm): Track [6N] on F.Cu, length 0.2121 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.6500 mm, 50.6500 mm): Track [5N] on F.Cu, length 1.2900 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(157.1125 mm, 48.6500 mm): Track [5N] on F.Cu, length 0.7625 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(156.3500 mm, 48.6500 mm): Track [5N] on F.Cu, length 0.3889 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(156.0750 mm, 49.3903 mm): Track [5N] on F.Cu, length 1.2860 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(155.0754 mm, 50.4100 mm): Track [5N] on F.Cu, length 0.1854 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(156.0750 mm, 48.9250 mm): Track [5N] on F.Cu, length 0.4653 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.8900 mm, 50.4100 mm): Track [5N] on F.Cu, length 0.3394 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(155.1657 mm, 50.2996 mm): Track [5N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.0000 mm, 49.4600 mm): Track [4N] on F.Cu, length 0.0651 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.6000 mm, 50.8600 mm): Track [4N] on F.Cu, length 0.7778 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.4875 mm, 49.2850 mm): Track [4N] on F.Cu, length 0.2475 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(155.0000 mm, 49.2850 mm): Track [4N] on F.Cu, length 0.5125 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.6000 mm, 49.7949 mm): Track [4N] on F.Cu, length 1.0651 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.3125 mm, 49.4600 mm): Track [4N] on F.Cu, length 0.3125 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.9349 mm, 49.4600 mm): Track [4N] on F.Cu, length 0.4737 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.0500 mm, 51.4100 mm): Track [4N] on F.Cu, length 0.5300 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(154.0000 mm, 49.4600 mm): Track [4N] on F.Cu, length 0.0797 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.1000 mm, 48.1500 mm): Track [4P] on F.Cu, length 0.0495 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(152.4500 mm, 47.7500 mm): Track [4P] on F.Cu, length 0.1000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.5650 mm, 49.2850 mm): Track [4P] on F.Cu, length 0.7525 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(152.4500 mm, 47.8500 mm): Track [4P] on F.Cu, length 0.4243 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.6000 mm, 48.3949 mm): Track [4P] on F.Cu, length 0.8551 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.3901 mm, 48.1850 mm): Track [4P] on F.Cu, length 0.2969 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.1350 mm, 48.1850 mm): Track [4P] on F.Cu, length 0.2551 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(153.6000 mm, 49.2500 mm): Track [4P] on F.Cu, length 0.0495 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(152.7500 mm, 48.1500 mm): Track [4P] on F.Cu, length 0.3500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(150.9000 mm, 45.2400 mm): Track [3N] on F.Cu, length 1.6600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(152.8125 mm, 48.6350 mm): Track [3N] on F.Cu, length 0.1975 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(152.6350 mm, 48.6350 mm): Track [3N] on F.Cu, length 0.1775 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.9996 mm, 49.1193 mm): Track [3N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.6250 mm, 49.5292 mm): Track [3N] on F.Cu, length 0.2958 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.9996 mm, 49.1547 mm): Track [3N] on F.Cu, length 0.5297 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(149.5100 mm, 43.8500 mm): Track [3N] on F.Cu, length 1.9658 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.6000 mm, 49.8500 mm): Track [3N] on F.Cu, length 0.3500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(150.9000 mm, 46.9000 mm): Track [3N] on F.Cu, length 2.4537 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.6250 mm, 49.8250 mm): Track [3N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.5750 mm, 49.0704 mm): Track [3P] on F.Cu, length 0.4944 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(149.8300 mm, 46.3900 mm): Track [3P] on F.Cu, length 2.6446 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.5750 mm, 48.7750 mm): Track [3P] on F.Cu, length 0.2954 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.2254 mm, 49.5396 mm): Track [3P] on F.Cu, length 0.5803 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.7000 mm, 48.6500 mm): Track [3P] on F.Cu, length 0.1768 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.2254 mm, 49.4200 mm): Track [3P] on F.Cu, length 0.1197 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(150.8151 mm, 49.9500 mm): Track [3P] on F.Cu, length 0.3776 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.7000 mm, 48.2600 mm): Track [3P] on F.Cu, length 0.3900 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.2250 mm, 48.4246 mm): Track [2N] on F.Cu, length 0.4655 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.2250 mm, 48.8901 mm): Track [2N] on F.Cu, length 0.1768 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(148.5000 mm, 45.8090 mm): Track [2N] on F.Cu, length 0.1626 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.2500 mm, 48.3996 mm): Track [2N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.1000 mm, 49.0151 mm): Track [2N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(148.5000 mm, 46.9710 mm): Track [2N] on F.Cu, length 0.0354 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(151.1000 mm, 49.0504 mm): Track [2N] on F.Cu, length 0.3529 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer In2.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(125.2000 mm, 68.9500 mm): Zone [AVDD] on In2.Cu, priority 2
+    @(169.8300 mm, 43.8500 mm): PTH pad 1 [AVDD] of J1
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(167.0000 mm, 79.2000 mm): Via [DVDD] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(168.0500 mm, 77.0500 mm): Track [PMOD_MISO] on F.Cu, length 0.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(141.6800 mm, 55.9425 mm): Track [AVSS] on F.Cu, length 0.1425 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(140.6200 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(143.1600 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(145.7000 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(148.2400 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(150.7800 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(153.3200 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(155.8600 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(158.4000 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(160.9400 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(163.4800 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(166.0200 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(168.5600 mm, 42.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(137.9700 mm, 42.4600 mm): Rectangle of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(160.4200 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(161.2800 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(162.9600 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(163.8200 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(165.5000 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(166.3600 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(168.0400 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(168.9000 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(170.5800 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(171.4400 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(173.1200 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(173.9800 mm, 102.1574 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(180.2000 mm, 42.4500 mm): Reference field of REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.6500 mm, 42.3954 mm): Rectangle on Edge.Cuts
+    @(128.9000 mm, 42.5500 mm): Reference field of REF**
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.4500 mm, 65.9800 mm): Reference field of C13
+    @(147.3113 mm, 65.5900 mm): Segment of C12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.4500 mm, 65.9800 mm): Reference field of C13
+    @(146.5000 mm, 66.4500 mm): Reference field of C12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 51.6000 mm): Segment of RN1 on F.Silkscreen
+    @(146.7500 mm, 52.6500 mm): Reference field of RN2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(151.0500 mm, 51.5500 mm): Segment of RN2 on F.Silkscreen
+    @(150.8500 mm, 52.7000 mm): Reference field of RN3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(150.8500 mm, 52.7000 mm): Reference field of RN3
+    @(149.6000 mm, 51.1000 mm): Reference field of U8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(137.1500 mm, 77.8500 mm): Reference field of C7
+    @(138.4000 mm, 77.6500 mm): Reference field of U5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(137.1463 mm, 75.6400 mm): Segment of C7 on F.Silkscreen
+    @(137.0000 mm, 75.9300 mm): Reference field of C8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(159.8000 mm, 52.7000 mm): Reference field of RN5
+    @(159.2000 mm, 51.6000 mm): Segment of RN4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(159.8000 mm, 52.7000 mm): Reference field of RN5
+    @(157.9500 mm, 51.1000 mm): Reference field of U10
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.5800 mm, 50.3750 mm): Polygon of U11 on F.Silkscreen
+    @(162.4000 mm, 51.0850 mm): Reference field of U11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(164.4350 mm, 60.9271 mm): Segment of R1 on F.Silkscreen
+    @(164.0700 mm, 60.8000 mm): Reference field of C19
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(157.9500 mm, 51.1000 mm): Reference field of U10
+    @(159.1300 mm, 50.3900 mm): Polygon of U10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(155.1500 mm, 51.6000 mm): Segment of RN3 on F.Silkscreen
+    @(154.9000 mm, 52.7000 mm): Reference field of RN4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3500 mm, 64.8000 mm): Reference field of U1
+    @(163.7700 mm, 65.1500 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(164.1100 mm, 65.2963 mm): Segment of C14 on F.Silkscreen
+    @(163.7700 mm, 65.1500 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3500 mm, 64.8000 mm): Reference field of U1
+    @(163.0900 mm, 65.2963 mm): Segment of C14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.0900 mm, 65.2963 mm): Segment of C14 on F.Silkscreen
+    @(163.7700 mm, 65.1500 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(175.4000 mm, 85.4500 mm): Reference field of TP24
+    @(174.7500 mm, 87.3500 mm): Circle of TP17 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(168.8200 mm, 77.1500 mm): Segment of J4 on F.Silkscreen
+    @(169.0700 mm, 75.9000 mm): Reference field of J3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(160.3000 mm, 90.6500 mm): Reference field of R17
+    @(161.4000 mm, 90.1500 mm): Reference field of TP22
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(157.5500 mm, 99.9000 mm): Reference field of C21
+    @(157.2150 mm, 99.8387 mm): Segment of C20 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(170.6500 mm, 94.7646 mm): Reference field of TP19
+    @(170.1775 mm, 94.3547 mm): Segment of R9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(170.6500 mm, 94.7646 mm): Reference field of TP19
+    @(171.6775 mm, 94.3547 mm): Segment of R15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(173.8000 mm, 90.9200 mm): Reference field of R18
+    @(175.4500 mm, 89.8500 mm): Reference field of TP17
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.5838 mm, 77.1275 mm): Segment of C11 on F.Silkscreen
+    @(127.4875 mm, 77.3175 mm): Reference field of C10
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(128.6375 mm, 78.1250 mm): Reference field of U6
+    @(127.4875 mm, 77.3175 mm): Reference field of C10
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(161.9500 mm, 90.9000 mm): Reference field of R16
+    @(161.4000 mm, 90.1500 mm): Reference field of TP22
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(167.3000 mm, 90.8000 mm): Reference field of R14
+    @(166.1500 mm, 90.0000 mm): Reference field of TP21
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(165.5500 mm, 90.9500 mm): Reference field of R13
+    @(166.1500 mm, 90.0000 mm): Reference field of TP21
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.7000 mm, 90.9000 mm): Reference field of R10
+    @(161.4000 mm, 90.1500 mm): Reference field of TP22
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(149.1400 mm, 93.6000 mm): Polygon of U4 on F.Silkscreen
+    @(147.3500 mm, 94.0020 mm): Reference field of TP11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.3000 mm, 94.7800 mm): Reference field of C2
+    @(147.3500 mm, 96.0000 mm): Circle of TP11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.3000 mm, 94.7800 mm): Reference field of C2
+    @(147.3500 mm, 94.0020 mm): Reference field of TP11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.4463 mm, 93.8600 mm): Segment of C2 on F.Silkscreen
+    @(147.3500 mm, 94.0020 mm): Reference field of TP11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(147.2000 mm, 92.1300 mm): Reference field of C1
+    @(148.2500 mm, 92.1500 mm): Reference field of U4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(128.6375 mm, 78.1250 mm): Reference field of U6
+    @(127.4375 mm, 79.0675 mm): Reference field of C11
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(138.0100 mm, 94.1100 mm): Segment of Q1 on F.Silkscreen
+    @(137.2500 mm, 94.6000 mm): Reference field of J5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.0200 mm, 61.8500 mm): Reference field of C17
+    @(146.7875 mm, 62.7000 mm): Pad 1 [Net-(U1-VREFP)] of C18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.7500 mm, 64.3800 mm): Reference field of C18
+    @(146.5875 mm, 64.5500 mm): Pad 2 [AVSS] of C13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.5000 mm, 66.4500 mm): Reference field of C12
+    @(145.0375 mm, 66.5000 mm): Pad 2 [AVSS] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.8500 mm, 51.5500 mm): Reference field of U7
+    @(144.2000 mm, 51.9400 mm): Pad 8 [SRB1] of RN1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.7500 mm, 52.6500 mm): Reference field of RN2
+    @(146.6000 mm, 53.4600 mm): Pad 1 [IN1N] of RN1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.7500 mm, 52.6500 mm): Reference field of RN2
+    @(146.6000 mm, 51.9400 mm): Pad 2 [1N] of RN1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.8500 mm, 52.7000 mm): Reference field of RN3
+    @(150.5500 mm, 53.4100 mm): Pad 1 [IN3N] of RN2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.8500 mm, 52.7000 mm): Reference field of RN3
+    @(150.5500 mm, 51.8900 mm): Pad 2 [3N] of RN2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(137.0000 mm, 75.9300 mm): Reference field of C8
+    @(136.1375 mm, 76.1500 mm): Pad 2 [AGND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(137.0000 mm, 75.9300 mm): Reference field of C8
+    @(137.8625 mm, 76.1500 mm): Pad 1 [AVSS] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.7500 mm, 82.1800 mm): Reference field of C5
+    @(140.7000 mm, 82.7625 mm): Pad 2 [Net-(U3-CAP-)] of C3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.4000 mm, 51.0850 mm): Reference field of U11
+    @(161.2000 mm, 51.9400 mm): Pad 8 [8P] of RN5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.4000 mm, 51.0850 mm): Reference field of U11
+    @(162.8000 mm, 51.9400 mm): Pad 4 [AGND] of RN5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.4000 mm, 51.0850 mm): Reference field of U11
+    @(162.0000 mm, 51.9400 mm): Pad 6 [8N] of RN5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.4000 mm, 51.0850 mm): Reference field of U11
+    @(163.6000 mm, 51.9400 mm): Pad 2 [BIAS] of RN5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.0500 mm, 60.7000 mm): Reference field of R1
+    @(161.6625 mm, 61.0500 mm): Pad 64 [AGND] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.0500 mm, 60.7000 mm): Reference field of R1
+    @(161.6625 mm, 61.5500 mm): Pad 63 [Net-(U1-BIASIN)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(164.0700 mm, 60.8000 mm): Reference field of C19
+    @(163.7000 mm, 61.7000 mm): Pad 1 [Net-(U1-BIASIN)] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(164.0700 mm, 60.8000 mm): Reference field of C19
+    @(163.7000 mm, 59.7000 mm): Pad 2 [BIAS_DRV] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.9500 mm, 51.1000 mm): Reference field of U10
+    @(157.9000 mm, 51.9400 mm): Pad 4 [7P] of RN4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.9500 mm, 51.1000 mm): Reference field of U10
+    @(158.7000 mm, 51.9400 mm): Pad 2 [7N] of RN4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.5000 mm, 66.4500 mm): Reference field of C12
+    @(148.1625 mm, 66.5000 mm): Pad 1 [Net-(U1-VCAP1)] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.4500 mm, 65.9800 mm): Reference field of C13
+    @(148.1625 mm, 66.5000 mm): Pad 1 [Net-(U1-VCAP1)] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(149.6000 mm, 51.1000 mm): Reference field of U8
+    @(148.9500 mm, 51.8900 mm): Pad 6 [2N] of RN2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.9500 mm, 51.1000 mm): Reference field of U10
+    @(157.1000 mm, 51.9400 mm): Pad 6 [6N] of RN4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.6500 mm, 51.0850 mm): Reference field of U9
+    @(153.0500 mm, 51.9400 mm): Pad 6 [4N] of RN3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.6500 mm, 51.0850 mm): Reference field of U9
+    @(153.8500 mm, 51.9400 mm): Pad 4 [5P] of RN3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.9000 mm, 52.7000 mm): Reference field of RN4
+    @(154.6500 mm, 53.4600 mm): Pad 1 [IN5N] of RN3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.9000 mm, 52.7000 mm): Reference field of RN4
+    @(154.6500 mm, 51.9400 mm): Pad 2 [5N] of RN3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.8500 mm, 51.5500 mm): Reference field of U7
+    @(145.0000 mm, 51.9400 mm): Pad 6 [SRB2] of RN1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(149.6000 mm, 51.1000 mm): Reference field of U8
+    @(149.7500 mm, 51.8900 mm): Pad 4 [3P] of RN2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(149.6000 mm, 51.1000 mm): Reference field of U8
+    @(150.5500 mm, 51.8900 mm): Pad 2 [3N] of RN2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.3500 mm, 64.8000 mm): Reference field of U1
+    @(163.6000 mm, 66.0125 mm): Pad 1 [Net-(U1-VCAP3)] of C14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.7700 mm, 65.1500 mm): Reference field of C15
+    @(163.6000 mm, 66.0125 mm): Pad 1 [Net-(U1-VCAP3)] of C14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 66.5500 mm): Pad 53 [AVSS] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 66.0500 mm): Pad 54 [AVDD] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 65.0500 mm): Pad 56 [AVDD] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 65.5500 mm): Pad 55 [Net-(U1-VCAP3)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 64.0500 mm): Pad 58 [AVSS] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1700 mm, 65.1500 mm): Reference field of C14
+    @(161.6625 mm, 64.5500 mm): Pad 57 [AVSS] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.3500 mm, 64.8000 mm): Reference field of U1
+    @(163.6000 mm, 64.2875 mm): Pad 2 [AVSS] of C14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.7700 mm, 65.1500 mm): Reference field of C15
+    @(163.6000 mm, 64.2875 mm): Pad 2 [AVSS] of C14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(169.0700 mm, 75.9000 mm): Reference field of J3
+    @(170.1500 mm, 75.8200 mm): PTH pad 1 [AGND] of J4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.6300 mm, 100.1000 mm): Reference field of C20
+    @(160.8500 mm, 101.0800 mm): PTH pad 12 [PMOD_3V3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.6300 mm, 100.1000 mm): Reference field of C20
+    @(160.8500 mm, 98.5400 mm): PTH pad 6 [PMOD_3V3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.5500 mm, 99.9000 mm): Reference field of C21
+    @(157.9500 mm, 101.1375 mm): Pad 2 [AGND] of C20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.5500 mm, 99.9000 mm): Reference field of C21
+    @(157.9500 mm, 99.0625 mm): Pad 1 [PMOD_3V3] of C20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.6500 mm, 94.7646 mm): Reference field of TP19
+    @(170.7000 mm, 95.0125 mm): Pad 1 [PMOD_MOSI] of R9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.6500 mm, 94.7646 mm): Reference field of TP19
+    @(169.1000 mm, 95.0125 mm): Pad 1 [PMOD_START] of R11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.6500 mm, 94.7646 mm): Reference field of TP19
+    @(172.2000 mm, 95.0125 mm): Pad 1 [PMOD_DRDY] of R15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.4875 mm, 77.3175 mm): Reference field of C10
+    @(126.5750 mm, 77.6375 mm): Pad 2 [AGND] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.4875 mm, 77.3175 mm): Reference field of C10
+    @(128.3000 mm, 77.6375 mm): Pad 1 [AVDD] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.6375 mm, 78.1250 mm): Reference field of U6
+    @(128.3000 mm, 77.6375 mm): Pad 1 [AVDD] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.2500 mm, 92.1500 mm): Reference field of U4
+    @(148.1625 mm, 93.3500 mm): Pad 1 [VIN_SYS] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.3000 mm, 94.7800 mm): Reference field of C2
+    @(147.3500 mm, 96.0000 mm): Pad 1 [VIN_SYS] of TP11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.3500 mm, 94.0020 mm): Reference field of TP11
+    @(146.4375 mm, 93.3500 mm): Pad 2 [AGND] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.3500 mm, 94.0020 mm): Reference field of TP11
+    @(148.1625 mm, 93.3500 mm): Pad 1 [VIN_SYS] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.0375 mm, 79.7575 mm): Reference field of C9
+    @(131.9875 mm, 79.2625 mm): Pad 3 [DVDD] of U6 on F.Cu
+
+** Found 8 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.1375 mm, 76.1500 mm): Pad 2 [AGND] of C7 on F.Cu
+    @(136.1375 mm, 74.5000 mm): Pad 2 [AGND] of C8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.1375 mm, 76.1500 mm): Pad 2 [AGND] of C7 on F.Cu
+    @(139.0625 mm, 78.7875 mm): Track [AGND] on F.Cu, length 1.0783 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.2625 mm, 76.3000 mm): Pad 2 [AGND] of C6 on F.Cu
+    @(145.7875 mm, 80.6500 mm): Track [AGND] on F.Cu, length 1.5125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.8000 mm, 51.9400 mm): Pad 4 [AGND] of RN5 on F.Cu
+    @(162.8500 mm, 53.4000 mm): Via [AGND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.4000 mm, 66.5000 mm): Track [AVSS] on F.Cu, length 2.6375 mm
+    @(146.5375 mm, 68.4500 mm): Track [AVSS] on F.Cu, length 1.0960 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.3875 mm, 90.7000 mm): Track [DVDD] on F.Cu, length 0.4419 mm
+    @(155.4500 mm, 90.0125 mm): Track [DVDD] on F.Cu, length 1.8125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.7500 mm, 76.5125 mm): Pad 4 [Net-(U5-NR)] of U5 on F.Cu
+    @(143.5375 mm, 76.3000 mm): Pad 1 [Net-(U5-NR)] of C6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.7000 mm, 82.7625 mm): Pad 2 [Net-(U3-CAP-)] of C3 on F.Cu
+    @(142.5500 mm, 82.8000 mm): Pad 3 [Net-(U3-CAP-)] of U3 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
